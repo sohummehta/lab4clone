@@ -7,7 +7,7 @@
  */
 function sumValues(num1, num2, add) {
     if (add) {
-        const result = 0;
+        let result = 0;
 
         result = num1 + num2;
 
@@ -31,7 +31,7 @@ function discountPrices(prices, discount) {
     }
     let discountedPrice = 0
     for(let i = 0; i < length; i++) {
-        const discountedPrice = 0;
+        let discountedPrice = 0;
         discountedPrice += prices[i] * (1 - discount);
         discounted.push(discountedPrice);
     }
